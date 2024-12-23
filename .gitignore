@@ -14,6 +14,9 @@ migrate_working_dir/
 .vscode/
 build/
 
+#adding exception for apk file
+!build/app/outputs/flutter-apk/app-release.apk
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -33,7 +36,6 @@ build/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
 
 # Symbolication related
 app.*.symbols
