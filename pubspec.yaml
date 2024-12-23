@@ -1,0 +1,32 @@
+name: eshop
+description: A new Flutter project for an eShop application
+
+publish_to: 'none' # Remove this line if you plan to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensure compatibility with Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^14.6.2
+  http: ^1.2.2
+  provider: ^6.1.2
+  # Add other dependencies you need here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # This section is for adding asset files (images, fonts, etc.) to the project
+  assets:
+    - assets/images/
+
+
+
